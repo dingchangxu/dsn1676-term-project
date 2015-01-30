@@ -9,7 +9,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: balck;
+
 
      
   -moz-text-size-adjust: 100%;
@@ -43,6 +43,259 @@ html {
   }
 }
 
+#header {
+    overflow: hidden;
+    position: fixed;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: black;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.about {
+    color: white;
+    transition: all .4s linear;
+}
+
+.about:hover {
+    font-weight: 700;
+}
+.portfolio {
+    color: white;
+}
+
+.portfolio:hover {
+    font-weight: 700;
+}
+.photo {
+    color: white;
+}
+
+.photo:hover {
+    font-weight: 700;
+}
+
+
+.info {
+    position: fixed;
+    overflow: hidden;
+    top: .5rem;
+    margin: .5rem;
+    display: inline-block;
+    width: .75rem;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.email {
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+}
+
+.ph {
+    position: absolute;
+    top: 3rem;
+}
+
+.phone {
+    position: absolute;
+    table-layout: fixed;
+    top: 2.5rem;
+    left: 2rem;
+    display: inline;
+    
+}
+
+.social {
+    top: .5rem;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    background-color:;
+    width: 100%;
+    text-align: right;
+    margin-right: 1rem;
+} 
+
+.social li {
+    display: inline-block;
+    width: 2rem;
+    overflow: hidden;
+}
+
+.social li:last-child {
+    margin: 0;
+}
+
+.social a,
+.social a:link,
+.social a:visited {
+    display: block;
+    margin: 0;
+    padding: 100% 0 0;
+}
+
+
+.behance {
+    background-image: url("../images/be-w.svg");
+    transition: 1s;
+    transform 1s;
+    -webkit-transition: 1s;
+    -webkit-transform: 1s;
+
+}
+
+.behance:hover {
+    background-image: url("../images/be-c.svg");
+    transform-origin: left;
+    -webkit-transform-origin: left;
+}
+
+.pinterest {
+    background-image: url("../images/p-w.svg");
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s; 
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.pinterest:hover {
+    background-image: url("../images/p-c.svg");
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.facebook {
+    background-image: url("../images/f-w.svg");
+}
+
+.facebook:hover {
+    background-image: url("../images/f-c.svg");
+}
+
+.blogger {
+    background-image: url("../images/b-w.svg");
+}
+
+.blogger:hover {
+    background-image: url("../images/b-c.svg");
+}
+
+.linkedin {
+    background-image: url("../images/in-w.svg");
+}
+
+.linkedin:hover {
+    background-image: url("../images/in-c.svg");
+}
+
+.twitter {
+    background-image: url("../images/t-w.svg");
+}
+
+.twitter:hover {
+    background-image: url("../images/t-c.svg");
+}
+
+.vimeo {
+    background-image: url("../images/v-w.svg");
+}
+
+.vimeo:hover {
+    background-image: url("../images/v-c.svg");
+}
+
+.youtube {
+    background-image: url("../images/yt-w.svg");
+}
+
+.youtube:hover {
+    background-image: url("../images/yt-c.svg");
+}
+
+
+.nav {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    text-align: center;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+@-webkit-keyframes logo {
+    0% {
+        transform: rotate(0deg);
+    }
+     
+     100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes logo {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    
+     100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.logo {
+    width: 2.5rem;
+    margin: .5rem;
+    margin-left: 1rem;
+    animation: logo 4s infinite;
+    -webkit-animation: logo 3s infinite;
+}
+
+
+.bg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 5rem;
+    background-attachment: fixed;
+    width: 100%;
+    
+}
+
+body {
+    margin: 0;
+}
+
+.h1 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    position: absolute;
+    background-color: red;
+    font-size: 14rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    top: 50%;
+
+    
+    
+}
+
+.bg1 {
+    width: 100%;
+}
 
 
 
@@ -51,24 +304,25 @@ html {
 
 
 
+@media only screen and (min-width: 10em) {
 
-
-
-
-
-
-
-@media only screen and (min-width: 10em) {  
+.social {
+    text-align: center;
+} 
     
 
 }
 
 @media only screen and (min-width: 20em) {
     
+
+    
         
 }
 
 @media only screen and (min-width: 25em) {
+    
+
     
        
 }
@@ -80,15 +334,21 @@ html {
 
 @media only screen and (min-width: 45em) {
     
+    
  
 }
     
 @media only screen and (min-width: 60em) {
     
+    
 
 }
 
 @media only screen and (min-width: 70em) {
+    
+.social {
+    text-align: right;
+} 
     
 
 }   
