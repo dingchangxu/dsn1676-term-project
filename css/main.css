@@ -90,7 +90,7 @@ html {
 }
 
 
-.info {
+/**.info {
     position: fixed;
     overflow: hidden;
     top: .5rem;
@@ -100,47 +100,67 @@ html {
     color: white;
     text-align: center;
     font-weight: 300;
-}
-.email {
-    position: absolute;
-    left: 2rem;
-    top: 1rem;
+}**/
+
+.so {
+    position: fixed;
+    overflow: hidden;
+    display: inline-block;
+
 }
 
+.eicon {
+    width: .75rem;
+    margin-top: .75rem;
+    margin-left: 1rem;
+    margin-right: .25rem;
+} 
+
+.email {
+    left: 2.25rem;
+    top: 1rem;
+    color: white;
+    background: black;
+    text-align: left;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.phicon {
+    width: .5rem;
+    margin-right: .25rem;
+}
 .ph {
     position: absolute;
-    top: 3rem;
+    top: .5rem;
+    left: 12rem;
 }
 
 .phone {
-    position: absolute;
-    table-layout: fixed;
-    top: 2.5rem;
-    left: 2rem;
-    display: inline;
-    
+    top: .5;
+    left: 12rem;
+    width: 6rem;
+    color: white;
 }
 
 .social {
-    top: .5rem;
-    padding: 0;
     overflow: hidden;
-    position: fixed;
-    background-color:;
+    /**position: fixed;**/
     width: 100%;
     text-align: right;
-    margin-right: 1rem;
+    margin-top: .25rem;
 } 
 
 .social li {
     display: inline-block;
     width: 2rem;
     overflow: hidden;
+    right: 1rem;
 }
 
-.social li:last-child {
-    margin: 0;
-}
+/**.social li:last-child {
+    margin-right: 1rem;
+}**/
 
 .social a,
 .social a:link,
@@ -227,7 +247,6 @@ html {
 
 
 .nav {
-    color: white;
     text-decoration: none;
     display: inline-block;
     text-align: center;
@@ -236,6 +255,8 @@ html {
 .nav li {
     display: inline-block;
     text-align: center;
+
+    
 }
 
 .nav a,
@@ -269,8 +290,10 @@ html {
 
 .logo {
     width: 2.5rem;
-    margin: .5rem;
-    margin-left: 1rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 1rem;
+    margin-bottom: 0;
     animation: logo 4s infinite;
     -webkit-animation: logo 3s infinite;
 }
@@ -328,22 +351,68 @@ body {
     padding: 0;
 }
 
-
-
-
-
-
-
-@media only screen and (min-width: 10em) {
-
-.social {
-    text-align: center;
-} 
+.ps {
+    opacity: .5;
+}
+.ps:hover {
+    opacity: 1;
     
-
 }
 
+
+
+
+
+
+/**@media only screen and (min-width: 10em) {
+
+.phone {
+    color: white;
+    margin-left: 1.5rem;
+}
+    
+.ph {
+    margin-top: -.15rem;
+}
+
+.info {
+    margin-left: 1rem;
+}
+.so {
+    margin-top: 2rem;
+    
+}
+
+
+}**/
+
 @media only screen and (min-width: 20em) {
+    
+.phone {
+    color: white;
+    margin-left: 5rem;
+}
+    
+.ph {
+    margin-top: -.15rem;
+}
+
+.info {
+    margin-left: 4rem;
+}
+
+.so {
+    margin-top: 2rem;
+    margin-left: -15rem;
+}
+
+.nav {
+    margin-left: -3rem;
+}
+    
+.logo {
+    margin-top: -1.5rem;
+}
     
 
     
