@@ -9,6 +9,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 
 
      
@@ -43,6 +44,13 @@ html {
   }
 }
 
+.black {
+    background-color: black;
+    width: 100%;
+    top:100;
+    
+}
+
 #header {
     overflow: hidden;
     position: fixed;
@@ -50,7 +58,7 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: black;
     width: 100%;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .menu {
@@ -268,14 +276,14 @@ html {
 }
 
 
-.bg {
+/**.qqbg {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center 5rem;
     background-attachment: fixed;
     width: 100%;
     
-}
+}**/
 
 body {
     margin: 0;
@@ -300,8 +308,25 @@ body {
 
 .bg1 {
     width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 5rem;
+    background-attachment: fixed;
 }
 
+#photos {
+    background-color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    color: white;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
 
 
 
