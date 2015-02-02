@@ -9,10 +9,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 
-
-     
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -66,16 +63,17 @@ html {
     width: 100%;
 }
 
-.about {
+/**.about {
     color: white;
-    transition: all .2s linear;
+    /**transition: all .2s linear;
+
 }
 
 .about:hover {
     font-weight: 700;
 }
 .portfolio {
-    color: white;
+    color: red;
 }
 
 .portfolio:hover {
@@ -83,30 +81,43 @@ html {
 }
 .photo {
     color: white;
-}
-
-.photo:hover {
-    font-weight: 700;
-}
-
-
-/**.info {
-    position: fixed;
-    overflow: hidden;
-    top: .5rem;
-    margin: .5rem;
-    display: inline-block;
-    width: .75rem;
-    color: white;
-    text-align: center;
     font-weight: 300;
+    
+}
+
+/**.photo:hover {
+    font-weight: 700;
 }**/
+
+#test-area {
+    border: 0px dashed;
+ }
+
+body {
+    margin: 0;
+    cursor:url("../images/arrow.cur"),default;
+    cursor:url("../images/crosshair.cur"),crosshair;
+    cursor:url("../images/arrow.cur"),e-resize;
+    cursor:url("../images/help.cur"),help;
+    cursor:url("../images/sizeall.cur"),move;
+    cursor:url("../images/arrow.cur"),n-resize;
+    cursor:url("../images/arrow.cur"),ne-resize;
+    cursor:url("../images/arrow.cur"),nw-resize;
+    cursor:url("../images/hand.cur"),pointer;
+    cursor:url("../images/arrow.cur"),progress;
+    cursor:url("../images/arrow.cur"),s-resize;
+    cursor:url("../images/arrow.cur"),se-resize;
+    cursor:url("../images/arrow.cur"),sw-resize;
+    cursor:url("../images/arrow.cur"),text;
+    cursor:url("../images/arrow.cur"),w-resize;
+    cursor:url("../images/no.cur"),not-allowed;
+    cursor:url("../images/arrow.cur"),no-drop;
+}
 
 .so {
     position: fixed;
     overflow: hidden;
     display: inline-block;
-
 }
 
 .eicon {
@@ -149,6 +160,7 @@ html {
     width: 100%;
     text-align: right;
     margin-top: .25rem;
+    
 } 
 
 .social li {
@@ -158,9 +170,9 @@ html {
     right: 1rem;
 }
 
-/**.social li:last-child {
+.social li:last-child {
     margin-right: 1rem;
-}**/
+}
 
 .social a,
 .social a:link,
@@ -168,22 +180,40 @@ html {
     display: block;
     margin: 0;
     padding: 100% 0 0;
+
+        -webkit-transition: width 1s, height 1s, -webkit-transform 1s; 
+    transition: width 1s, height 1s, transform 1s;
 }
+
+
+.social a:hover {
+    display: block;
+    margin: 0;
+    padding: 100% 0 0;
+
+        -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+
+
 
 
 .behance {
     background-image: url("../images/be-w.svg");
     transition: 1s;
     transform 1s;
-    -webkit-transition: 1s;
+    /**-webkit-transition: 1s;
     -webkit-transform: 1s;
-
+    cursor:url("../images/hand.cur");**/
 }
 
 .behance:hover {
     background-image: url("../images/be-c.svg");
-    transform-origin: left;
-    -webkit-transform-origin: left;
+   /** transform-origin: left;
+    -webkit-transform-origin: left;**/
+
 }
 
 .pinterest {
@@ -250,13 +280,12 @@ html {
     text-decoration: none;
     display: inline-block;
     text-align: center;
+    font-weight: 400;
 }
 
 .nav li {
     display: inline-block;
     text-align: center;
-
-    
 }
 
 .nav a,
@@ -267,6 +296,13 @@ html {
     text-decoration: none;
     text-align: center;
 }
+
+.nav a:hover {
+    font-weight: 700;
+    cursor:url("../images/sizeall.cur"),pointer;
+    background-color: red;
+}
+
 
 @-webkit-keyframes logo {
     0% {
@@ -308,25 +344,17 @@ html {
     
 }**/
 
-body {
-    margin: 0;
-}
-
 .h1 {
     font-family: 'Comfortaa', cursive;
     font-weight: 700;
     text-align: center;
     color: white;
     position: absolute;
-    background-color: red;
+    /**background-color: blue;**/
     font-size: 14rem;
     margin-left: auto;
     margin-right: auto;
-
-    top: 50%;
-
-    
-    
+    top: 50%;  
 }
 
 .bg1 {
@@ -353,6 +381,7 @@ body {
 
 .ps {
     opacity: .5;
+    cursor:url("../images/hand.cur"),pointer;
 }
 .ps:hover {
     opacity: 1;
@@ -412,6 +441,19 @@ body {
     
 .logo {
     margin-top: -1.5rem;
+}
+    
+.h1 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    position: absolute;
+    /**background-color: blue;**/
+    font-size: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    top: 15%;  
 }
     
 
