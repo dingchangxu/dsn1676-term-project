@@ -279,6 +279,12 @@ body {
 }
 
 
+.h1:hover {
+    
+    color: black;
+    
+    
+}
 
 .h1 {
     font-family: 'Comfortaa', cursive;
@@ -289,12 +295,14 @@ body {
     width: 100%; 
     animation: h1 2s;
     -webkit-animation: h1 2s;
-    transition-delay: 1s;
-    -webkit-transition-delay: 1s;
+    transition-delay: 2s;
+    -webkit-transition-delay: 2s;
     -webkit-transition-duration: 1s;
     -webkit-transition-timing-function: linear;
     transition-duration: 1s;
     transition-timing-function: linear;
+    transition: all .4s linear;
+    -webkit-transition: all .4s linear;
 }
 
 @-webkit-keyframes h1 {
@@ -314,6 +322,7 @@ body {
     
     100% {
         transform: rotate(360deg);
+
         color: green;
     }
 }
@@ -321,6 +330,7 @@ body {
 @-webkit-keyframes h1 {
     0% {
         -webkit-transform: rotate(0deg);
+
         color: red;
     }
     
@@ -335,9 +345,12 @@ body {
     
      100% {
         -webkit-transform: rotate(360deg);
+
          color: green;
     }
 }
+
+
 
 .p {
     font-size: 1rem;
@@ -386,12 +399,10 @@ body {
 
 .nav {
     margin-left: -3rem;
-}
-    
+}  
     
 .logo {
-    margin-top: -2rem;
-    
+    margin-top: -2rem; 
 }
     
 .h1 {
@@ -401,10 +412,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     top: 15%;  
-}
-    
- 
-     
+}   
 }
 
 @media only screen and (min-width: 25em) {
@@ -413,47 +421,40 @@ body {
     margin-left: -3rem;
 }
     
-    
-    
 .logo {
-    margin-top: -.75rem;
-    
+    margin-top: -.75rem;   
 }
-    
-
-       
+      
 }
 
 @media only screen and (min-width: 38em) {
-    
-    
+      
 .logo {
-    margin-top: -2rem;
-    
-}    
-    
-   
+    margin-top: -2rem;  
+}       
 }
 
 @media only screen and (min-width: 45em) {
     
-    .nav {
+.nav {
     margin-left: -3rem;
-        background-color: red;
+} 
+    
+.social {
+    background-color: red;
+    margin-right: 1rem;
 }
     
-    
- 
 }
     
 @media only screen and (min-width: 60em) {
     
+ 
     
 
 }
 
 @media only screen and (min-width: 70em) {
-    
     
 
 }   
