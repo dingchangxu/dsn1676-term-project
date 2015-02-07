@@ -41,11 +41,36 @@ html {
   }
 }
 
+#mouse {
+    border: 0px dashed;
+ }
+
+body {
+    margin: 0;
+    cursor:url("../images/arrow.cur"),default;
+    cursor:url("../images/crosshair.cur"),crosshair;
+    cursor:url("../images/sizewe.cur"),e-resize;
+    cursor:url("../images/help.cur"),help;
+    cursor:url("../images/sizeall.cur"),move;
+    cursor:url("../images/arrow.cur"),n-resize;
+    cursor:url("../images/arrow.cur"),ne-resize;
+    cursor:url("../images/arrow.cur"),nw-resize;
+    cursor:url("../images/hand.cur"),pointer;
+    cursor:url("../images/wait.ani"),progress;
+    cursor:url("../images/sizens.cur"),s-resize;
+    cursor:url("../images/sizenwse.cur"),se-resize;
+    cursor:url("../images/sizesw.cur"),sw-resize;
+    cursor:url("../images/arrow.cur"),text;
+    cursor:url("../images/arrow.cur"),w-resize;
+    cursor:url("../images/no.cur"),not-allowed;
+    cursor:url("../images/arrow.cur"),no-drop;
+}
+
+
 .black {
     background-color: black;
     width: 100%;
-    top:100;
-    
+    top:100%;  
 }
 
 #header {
@@ -63,59 +88,6 @@ html {
     width: 100%;
 }
 
-/**.about {
-    color: white;
-    /**transition: all .2s linear;
-
-}
-
-.about:hover {
-    font-weight: 700;
-}
-.portfolio {
-    color: red;
-}
-
-.portfolio:hover {
-    font-weight: 700;
-}
-.photo {
-    color: white;
-    font-weight: 300;
-    
-}
-
-/**.photo:hover {
-    font-weight: 700;
-}**/
-
-#test-area {
-    border: 0px dashed;
- }
-
-body {
-    margin: 0;
-    cursor:url("../images/arrow.cur"),default;
-    cursor:url("../images/crosshair.cur"),crosshair;
-    cursor:url("../images/arrow.cur"),e-resize;
-    cursor:url("../images/help.cur"),help;
-    cursor:url("../images/sizeall.cur"),move;
-    cursor:url("../images/arrow.cur"),n-resize;
-    cursor:url("../images/arrow.cur"),ne-resize;
-    cursor:url("../images/arrow.cur"),nw-resize;
-    cursor:url("../images/hand.cur"),pointer;
-    cursor:url("../images/arrow.cur"),progress;
-    cursor:url("../images/arrow.cur"),s-resize;
-    cursor:url("../images/arrow.cur"),se-resize;
-    cursor:url("../images/arrow.cur"),sw-resize;
-    cursor:url("../images/arrow.cur"),text;
-    cursor:url("../images/arrow.cur"),w-resize;
-    cursor:url("../images/no.cur"),not-allowed;
-    cursor:url("../images/arrow.cur"),no-drop;
-}
-
-
-
 .eicon {
     width: .5rem;
     margin-top: .75rem;
@@ -132,51 +104,16 @@ body {
     width: .45rem;
     margin-right: .25rem;
 }
-.ph {
-    position: absolute;
-    top: .5rem;
-    left: 12rem;
-}
 
 .phone {
     color: white;
     margin: 0;
 }
 
-
-.so {
-/*
-    position: fixed;
-    overflow: hidden;
-    display: inline-block;
-    *width: 100%;
-*/
-/*
-    left: 17rem;
-    margin: .5rem;* 
-*/
-/*
-    margin-left: auto;
-    margin-right: auto;   
-    width: 80%;
-*/
-}
-
-
 .social {
     overflow: hidden;
-    /**position: fixed;**/
-/*
-    width: 80%;
-    margin-top: .25rem;
-    background-color: red;
-    margin-left: auto;
-    margin-right: auto;
-*/
-
     margin: 0;
     padding: 0;
- 
 } 
 
 .social li {
@@ -196,25 +133,17 @@ body {
     display: block;
     margin: 0;
     padding: 100% 0 0;
-
-        -webkit-transition: width 1s, height 1s, -webkit-transform 1s; 
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s; 
     transition: width 1s, height 1s, transform 1s;
 }
-
 
 .social a:hover {
     display: block;
     margin: 0;
     padding: 100% 0 0;
-
-        -webkit-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
-
-
-
-
-
 
 .behance {
     background-image: url("../images/be-w.svg");
@@ -229,7 +158,6 @@ body {
     background-image: url("../images/be-c.svg");
    /** transform-origin: left;
     -webkit-transform-origin: left;**/
-
 }
 
 .pinterest {
@@ -347,39 +275,89 @@ body {
     left: 1rem;
     margin-bottom: 0;
     animation: logo 4s infinite;
-    -webkit-animation: logo 3s infinite;
+    -webkit-animation: logo 4s infinite;
 }
 
 
-/**.qqbg {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center 5rem;
-    background-attachment: fixed;
-    width: 100%;
-    
-}**/
 
 .h1 {
     font-family: 'Comfortaa', cursive;
     font-weight: 700;
     text-align: center;
     color: white;
+/*
     position: absolute;
-    background-color: blue;
-    top: 20%;
+*/
+    background-color: ;
     width: 100%; 
-    -webkit-transition: width 1s, height 1s, -webkit-transform 1s; 
-    transition: width 1s, height 1s, transform 1s;
+    animation: h1 2s;
+    -webkit-animation: h1 2s;
+    transition-delay: 1s;
+    -webkit-transition-delay: 1s;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: linear;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+@-webkit-keyframes h1 {
+    0% {
+        transform: rotate(0deg);
+        color: red;
+    }
+    
+    25% {
+        color: yellow;
+    }
+     
+    50% {
+        color: blue;
+    
+    }
+    
+    100% {
+        transform: rotate(360deg);
+        color: green;
+    }
+}
+
+@-webkit-keyframes h1 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        color: red;
+    }
+    
+    25% {
+        color: yellow;
+    }
+     
+    50% {
+        color: blue;
+    
+    }
+    
+     100% {
+        -webkit-transform: rotate(360deg);
+         color: green;
+    }
 }
 
 
 
-.h1:hover {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -397,7 +375,6 @@ body {
     background-repeat: no-repeat;
     background-position: center 5rem;
     background-attachment: fixed;
-
 }
 
 #photos {
@@ -405,7 +382,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     width: auto;
-    padding: 1.5rem;
+    padding: 11.5rem;
     text-align: center;
     position: relative;
     color: white;
@@ -423,65 +400,25 @@ body {
     
 }
 
-
-
-
-
-
-/**@media only screen and (min-width: 10em) {
-
-.phone {
-    color: white;
-    margin-left: 1.5rem;
-}
-    
-.ph {
-    margin-top: -.15rem;
-}
-
-.info {
-    margin-left: 1rem;
-}
-.so {
-    margin-top: 2rem;
+@media only screen and (min-width: 10em) {
     
 }
-
-
-}**/
 
 @media only screen and (min-width: 20em) {
-    
-
-.ph {
-/*
-    margin-top: -.25rem;
-*/
-}
-
-.info {
-}
-
-/*
-.so {
-    margin-top: 2rem;
-    margin-left: -15rem;
-    
-}
-*/
 
 .nav {
     margin-left: -3rem;
 }
     
 .logo {
-    margin-top: -1.5rem;
+    margin-top: -.5rem;
+    
 }
     
 .h1 {
     color: white;
     position: absolute;
-    /**background-color: blue;**/
+    background-color: ;
     margin-left: auto;
     margin-right: auto;
     top: 15%;  
@@ -491,33 +428,6 @@ body {
 }
 
 @media only screen and (min-width: 25em) {
-
-    
-.ph {
-    margin-top: -.25rem;
-}
-
-.info {
-/*
-    margin-left: 3rem;
-*/
-    
-    
-}    
-    
-    .so {
-/*
-    background-color: blue;
-    margin-top: 2rem;
-*/
-/*
-    margin-left: -9rem;
-*/
-}
-
-
-
-    
        
 }
 
