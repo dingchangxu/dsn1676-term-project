@@ -389,12 +389,6 @@ body {
 }
     
     
-.social {
-    background-color: blue;
-    
-
-}
-    
 .logo {
     margin-top: -2rem;
     
@@ -409,18 +403,7 @@ body {
     top: 15%;  
 }
     
-.email {
-    background-color: red;
-    margin-left: -3rem;
-
-}
-    
-.eicon {
-    background-color: blue;
-    margin-left: 2rem;
-    
-}
-    
+ 
      
 }
 
@@ -428,26 +411,16 @@ body {
     
 .nav {
     margin-left: -3rem;
-    background-color: red;
 }
     
     
-.social {
-    background-color: blue;
-    
-
-}
     
 .logo {
     margin-top: -.75rem;
     
 }
     
-    
-.email {
-    background-color: red;
 
-}
        
 }
 
