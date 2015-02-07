@@ -285,9 +285,6 @@ body {
     font-weight: 700;
     text-align: center;
     color: white;
-/*
-    position: absolute;
-*/
     background-color: ;
     width: 100%; 
     animation: h1 2s;
@@ -342,25 +339,6 @@ body {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .p {
     font-size: 1rem;
     margin-top: -5rem;
@@ -410,8 +388,15 @@ body {
     margin-left: -3rem;
 }
     
+    
+.social {
+    background-color: blue;
+    
+
+}
+    
 .logo {
-    margin-top: -.5rem;
+    margin-top: -2rem;
     
 }
     
@@ -424,14 +409,55 @@ body {
     top: 15%;  
 }
     
+.email {
+    background-color: red;
+    margin-left: -3rem;
+
+}
+    
+.eicon {
+    background-color: blue;
+    margin-left: 2rem;
+    
+}
+    
      
 }
 
 @media only screen and (min-width: 25em) {
+    
+.nav {
+    margin-left: -3rem;
+    background-color: red;
+}
+    
+    
+.social {
+    background-color: blue;
+    
+
+}
+    
+.logo {
+    margin-top: -.75rem;
+    
+}
+    
+    
+.email {
+    background-color: red;
+
+}
        
 }
 
 @media only screen and (min-width: 38em) {
+    
+    
+.logo {
+    margin-top: -2rem;
+    
+}    
     
    
 }
