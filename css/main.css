@@ -45,7 +45,7 @@ html {
     border: 0px dashed;
  }
 
-body {
+<!--body {
     margin: 0;
     cursor:url("../images/arrow.cur"),default;
     cursor:url("../images/crosshair.cur"),crosshair;
@@ -64,7 +64,7 @@ body {
     cursor:url("../images/arrow.cur"),w-resize;
     cursor:url("../images/no.cur"),not-allowed;
     cursor:url("../images/arrow.cur"),no-drop;
-}
+}-->
 
 
 .black {
@@ -248,7 +248,7 @@ body {
 }
 
 
-@-webkit-keyframes logo {
+@keyframes logo {
     0% {
         transform: rotate(0deg);
     }
@@ -305,7 +305,7 @@ body {
     -webkit-transition: all .4s linear;
 }
 
-@-webkit-keyframes h1 {
+@keyframes h1 {
     0% {
         transform: rotate(0deg);
         color: red;
@@ -330,7 +330,6 @@ body {
 @-webkit-keyframes h1 {
     0% {
         -webkit-transform: rotate(0deg);
-
         color: red;
     }
     
