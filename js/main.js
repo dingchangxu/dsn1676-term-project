@@ -1,6 +1,8 @@
-var $boxShow = $('.toggle');
-var $box = $('.box');
+var $btnShow = $('.btn-show');
+var $box1 = $('.box1');
 
-$boxShow.on('click', function () {
-    $box.toggleClass('box-show');
+
+
+$btnShow.on('click', function () {
+    $box1.toggleClass('js-btn-show');
 });
