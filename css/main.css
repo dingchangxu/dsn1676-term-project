@@ -247,6 +247,28 @@ html {
     background-color: red;
 }
 
+.nav-open,
+.nav-close {
+    width: 1.5rem;
+    position: absolute;
+    left: 90%;
+    display: block;
+    margin: .5rem;
+}
+
+.nav-close {
+    display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+    display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+    display: block;
+}
+
+
 
 @keyframes logo {
     0% {
@@ -278,12 +300,17 @@ html {
     -webkit-animation: logo 4s infinite;
 }
 
+<!--.t {
+    width: 1.5rem;
+    position: absolute;
+    top: 2rem;
+    left: 90%;
+}-->
+
 
 .h1:hover {
     
-    color: black;
-    
-    
+    color: black; 
 }
 
 .h1 {
@@ -349,8 +376,6 @@ html {
     }
 }
 
-
-
 .p {
     font-size: 1rem;
     margin-top: -5rem;
@@ -383,12 +408,29 @@ html {
 
 .ps {
     opacity: .5;
-    cursor:url("../images/hand.cur"),pointer;
+    <!--cursor:url("../images/hand.cur"),pointer;-->
 }
 .ps:hover {
     opacity: 1;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 10em) {
     
