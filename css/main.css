@@ -9,6 +9,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -220,24 +221,30 @@ html {
     background-image: url("../images/yt-c.svg");
 }
 
+.nav-label {
+    padding: .5rem;
+    top: .5rem;
+}
 
 .nav {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  background-color: #ccc;
-  display: none;
-  position: absolute;
-  right: 0;
-  top: 100%;
-  width: 15em;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: black;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 10em;
+    text-align: center;
+  
 }
 
 .nav a {
   display: block;
   padding: 0.5em;
   text-decoration: none;
-  color: #000;
+  color: white;
 }
 
 .nav a:hover {
@@ -271,7 +278,7 @@ html {
 }
 
 .nav-check:checked ~ .nav-label {
-  background-color: #ccc;
+  background-color: ;
 }
 
 .nav-close {
@@ -286,27 +293,87 @@ html {
   display: block;
 }
 
-.btn-show {
-    display: inline-block;
+.boxes {
+    text-align: center;
 }
 
 
 .box1 {
   height: 100px;
   top: calc(50% - 50px);
-  width: 200px;
+  width: 100%;
   background-color: limegreen;
   transition: all 300ms linear;
   -webkit-transition: all 300ms linear;
   opacity: 0;
+    text-align: center;
 }
 
-.js-btn-show {
+.box2 {
+  height: 100px;
+  top: calc(50% - 50px);
+  width: 100%;
+  background-color: limegreen;
+  transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
+  opacity: 0;
+    text-align: center;
+}
+
+.box3 {
+  height: 100px;
+  top: calc(50% - 50px);
+  width: 100%;
+  background-color: limegreen;
+  transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
+  opacity: 0;
+    text-align: center;
+
+}
+
+.box4 {
+  height: 100px;
+  top: calc(50% - 50px);
+  width: 100%;
+  background-color: limegreen;
+  transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
+  opacity: 0;
+    text-align: center;
+}
+
+.js-btn-show1 {
     opacity: 1;
     color: black;
 }
 
-<!--.nav {
+.js-btn-show2 {
+    opacity: 1;
+    color: black;
+}
+
+.js-btn-show3 {
+    opacity:3;
+    color: black;
+}
+
+.js-btn-show4 {
+    opacity:3;
+    color: black;
+    
+}
+
+.btn-show1,
+.btn-show2,
+.btn-show3,
+.btn-show4 {
+    width: 7rem;
+    
+    
+}
+
+/*.nav {
     text-decoration: none;
     display: inline-block;
     text-align: center;
@@ -365,7 +432,7 @@ html {
 .navm-check:checked ~ .nav-label .nav-close {
     display: block;
 }
--->
+*/
 
 
 @keyframes logo {
@@ -398,12 +465,12 @@ html {
     -webkit-animation: logo 4s infinite;
 }
 
-<!--.t {
+/*.t {
     width: 1.5rem;
     position: absolute;
     top: 2rem;
     left: 90%;
-}-->
+}*/
 
 
 .h1:hover {
@@ -506,7 +573,7 @@ html {
 
 .ps {
     opacity: .5;
-    <!--cursor:url("../images/hand.cur"),pointer;-->
+    /*cursor:url("../images/hand.cur"),pointer;*/
 }
 .ps:hover {
     opacity: 1;
@@ -564,7 +631,7 @@ html {
 }
     
 .logo {
-    margin-top: -.75rem;   
+    margin-top: -1rem;  
 }
       
 }
@@ -572,7 +639,7 @@ html {
 @media only screen and (min-width: 38em) {
       
 .logo {
-    margin-top: -2rem;  
+    margin-top: -1rem;  
 }       
 }
 
