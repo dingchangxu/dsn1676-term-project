@@ -24,4 +24,6 @@ $btnShow4.on('click', function () {
     $box4.toggleClass('js-btn-show4');
 });
 
-$('.nav').localScroll();
+$('.nav').localScroll({
+    target: '.wrapper'
+});
