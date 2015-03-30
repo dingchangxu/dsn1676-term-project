@@ -23,3 +23,5 @@ $btnShow3.on('click', function () {
 $btnShow4.on('click', function () {
     $box4.toggleClass('js-btn-show4');
 });
+
+$('.nav').localScroll();
