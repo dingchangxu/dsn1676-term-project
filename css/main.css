@@ -95,6 +95,8 @@ header {
     color: black; 
 }
 
+
+
 .middle {
     transform: translateZ(-0.5px);
     position: absolute;
@@ -302,6 +304,46 @@ header {
     animation: logo 4s infinite;
     -webkit-animation: logo 4s infinite;
 }
+
+#photos {
+    background-color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    width: auto;
+    padding: 11.5rem;
+    text-align: center;
+    position: relative;
+    color: white;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.photo {
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 10em) {
 .logo {
