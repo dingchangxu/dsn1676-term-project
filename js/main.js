@@ -6,7 +6,7 @@ var $box1 = $('.box1');
 var $box2 = $('.box2');
 var $box3 = $('.box3');
 var $box4 = $('.box4');
-
+var $blackbox = $('.blackbox');
 
 $btnShow1.on('click', function () {
     $box1.toggleClass('js-btn-show1');
@@ -27,3 +27,16 @@ $btnShow4.on('click', function () {
 $('.nav').localScroll({
     target: '.wrapper'
 });
+
+
+
+               
+$blackbox.waypoint(function (direction) {
+    
+    if (direction == 'down') {
+        $blackbox.addClass('js-active'); 
+    } else {
+        $blackbox.removeClass('js-active')
+    }
+    
+}, { offset: '60%', context:　'.wrapper' });

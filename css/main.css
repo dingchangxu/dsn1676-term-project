@@ -74,6 +74,29 @@ body {
     top: 0;
 }
 
+.bbox {
+    position: relative;
+    background-color: white;
+}
+
+.blackbox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.blackbox {
+    opacity: 1;
+    transition: all 1s linear;
+}
+
+.js-active.blackbox {
+    opacity: 0;
+}
+
+
 /*
 header {
     text-decoration: none;
