@@ -95,19 +95,6 @@ body {
     opacity: 0;
 }
 
-
-/*
-header {
-    text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: black;
-    width: 100%;
-    opacity: 0.7;
-    height: 3rem;
-    position: relative;
-}
-*/
-
 .front {
     background-color: #ebd10a;
     color: #fff;
@@ -117,15 +104,12 @@ header {
     color: black; 
 }
 
-
-
 .middle {
     transform: translateZ(-0.5px);
     position: absolute;
     left: 0;
     font-size: 2rem;
-    top: 10%;
-    
+    top: 1%;
     font-family: 'Comfortaa', cursive;
     font-weight: 700;
     text-align: center;
@@ -234,7 +218,6 @@ header {
 }
 
 .nav-check:checked ~ .nav-label {
-  background-color: ;
 }
 
 .nav-close {
@@ -346,31 +329,15 @@ header {
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 10em) {
 .logo {
     margin-top: -1rem; 
-}   
+} 
+    
+.middle {
+    margin-left: auto;
+    margin-right: auto;
+    top: 1%; 
 }
 
 @media only screen and (min-width: 20em) {
@@ -386,7 +353,7 @@ header {
 .middle {
     margin-left: auto;
     margin-right: auto;
-    top: 7%;  
+    top: 2%;  
 }   
 }
 
@@ -403,10 +370,9 @@ header {
 .middle {
     color: white;
     position: absolute;
-    background-color: ;
     margin-left: auto;
     margin-right: auto;
-    top: 18%;      
+    top: 3%;      
 }
 
 @media only screen and (min-width: 38em) {
@@ -418,10 +384,9 @@ header {
 .middle {
     color: white;
     position: absolute;
-    background-color: ;
     margin-left: auto;
     margin-right: auto;
-    top: 30%; 
+    top: 13%; 
     font-size: 2rem;
 } 
 }
@@ -439,11 +404,10 @@ header {
 .middle {
     color: white;
     position: absolute;
-    background-color: ;
     margin-left: auto;
     margin-right: auto;
-    top: 36%; 
-    font-size: 2rem;
+    top: 18%; 
+    font-size: 3rem;
 }  
 }
     
@@ -452,10 +416,9 @@ header {
  .middle {
     color: white;
     position: absolute;
-    background-color: ;
     margin-left: auto;
     margin-right: auto;
-    top: 40%; 
+    top: 29%; 
     font-size: 3rem;
 }
 }
@@ -463,12 +426,11 @@ header {
 @media only screen and (min-width: 70em) {
 
 .middle {
-    color: white;
+    color: red;
     position: absolute;
-    background-color: ;
     margin-left: auto;
     margin-right: auto;
-    top: 60%; 
+    top: 34%; 
     font-size: 5rem;
 }
 }   

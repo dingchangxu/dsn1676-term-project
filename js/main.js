@@ -27,9 +27,6 @@ $btnShow4.on('click', function () {
 $('.nav').localScroll({
     target: '.wrapper'
 });
-
-
-
                
 $blackbox.waypoint(function (direction) {
     
